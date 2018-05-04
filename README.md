@@ -5,23 +5,30 @@
 For people who study with [`Real MySQL`](http://wikibook.co.kr/real-mysql/) that is published by [wikibooks](http://wikibook.co.kr/).
 
 ## Usage
+- MySQL Server Version: 5.7.22
 
-```shell
+**If you want to start mysql server**
+```
 make all
 ```
 
 or
 
-```shell
+```
 make run
 make initialize-database
 ```
 
-**If you have finished studying, call down command**
--  Stop and remove mysql docker
-
-```shell
+**If you want to stop mysql server**
+```
 make stop
+```
+
+**Account info for connecting**
+```
+Host: 127.0.0.1
+Username: root
+Password: X (empty)
 ```
 
 ## Notice
