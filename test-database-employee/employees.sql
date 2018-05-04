@@ -105,15 +105,15 @@ CREATE TABLE salaries (
 ); 
 
 SELECT 'LOADING departments' as 'INFO';
-source load_departments.dump ;
+source test-database-employee/load_departments.dump ;
 SELECT 'LOADING employees' as 'INFO';
-source load_employees.dump ;
+source test-database-employee/load_employees.dump ;
 SELECT 'LOADING dept_emp' as 'INFO';
-source load_dept_emp.dump ;
+source test-database-employee/load_dept_emp.dump ;
 SELECT 'LOADING dept_manager' as 'INFO';
-source load_dept_manager.dump ;
+source test-database-employee/load_dept_manager.dump ;
 SELECT 'LOADING titles' as 'INFO';
-source load_titles.dump ;
+source test-database-employee/load_titles.dump ;
 SELECT 'LOADING salaries' as 'INFO';
-source load_salaries.dump ;
+source test-database-employee/load_salaries.dump ;
 

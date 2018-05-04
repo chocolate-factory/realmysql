@@ -1,4 +1,5 @@
-﻿SELECT 'Start schema modification' as status;
+﻿USE employees;
+SELECT 'Start schema modification' as status;
 
 SELECT 'Create full text index test table' as status;
 CREATE TABLE employee_name (
