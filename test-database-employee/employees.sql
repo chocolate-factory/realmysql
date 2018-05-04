@@ -35,13 +35,13 @@ DROP TABLE IF EXISTS dept_emp,
                      employees, 
                      departments;
 
-   set storage_engine = InnoDB;
+   set default_storage_engine = InnoDB;
 -- set storage_engine = MyISAM;
 -- set storage_engine = Falcon;
 -- set storage_engine = PBXT;
 -- set storage_engine = Maria;
 
-select CONCAT('storage engine: ', @@storage_engine) as INFO;
+select CONCAT('default storage engine: ', @@default_storage_engine) as INFO;
 
 CREATE TABLE employees (
     emp_no      INT             NOT NULL,
