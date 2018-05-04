@@ -24,3 +24,5 @@ make initialize-database
 make stop
 ```
 
+## Notice
+- Use your mysql client like [`Sequel Pro`](https://www.sequelpro.com/), [`DataGrip`](https://www.jetbrains.com/datagrip/) and etc to execute SQL.
