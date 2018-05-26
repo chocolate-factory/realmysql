@@ -8,6 +8,9 @@ all:
 	sh wait_for_it.sh 'mysqladmin ping -h 127.0.0.1 -u root -proot' 'make initialize-database'
 
 run:
+	@docker-compose up
+
+daemon:
 	@docker-compose up -d
 
 stop:
